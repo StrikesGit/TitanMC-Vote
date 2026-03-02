@@ -6,7 +6,6 @@
   <title>Vote for TitanMC!</title>
   
   <style>
-    /* Color Theme and Basic Reset */
     :root {
       --primary: #4287f5;
       --primary-hover: #2b68c7;
@@ -28,7 +27,6 @@
       min-height: 100vh;
     }
 
-    /* Main Container */
     .vote-container {
       background-color: var(--card-bg);
       padding: 40px;
@@ -52,7 +50,6 @@
       line-height: 1.5;
     }
 
-    /* The Big Vote Button */
     .btn-vote-all {
       background-color: var(--primary);
       color: white;
@@ -78,7 +75,6 @@
       transform: translateY(1px);
     }
 
-    /* Pop-up Warning Box */
     .warning-box {
       background-color: rgba(255, 170, 0, 0.1);
       border: 1px solid rgba(255, 170, 0, 0.3);
@@ -90,7 +86,6 @@
       text-align: left;
     }
 
-    /* Individual Links Section */
     .individual-links {
       text-align: left;
       background-color: rgba(255, 255, 255, 0.03);
@@ -138,7 +133,6 @@
 
   <script>
     function openVoteLinks() {
-      // All 11 vote URLs extracted from your config
       const links = [
         "https://minecraftservers.org/vote/682126",
         "https://minecraft-mp.com/server-s351609",
@@ -152,7 +146,6 @@
         "https://minecraftlist.org/vote/33974"
       ];
 
-      // Open each link in a new tab
       links.forEach(link => {
         window.open(link, '_blank');
       });
@@ -194,3 +187,4 @@
 </body>
 
 </html>
+
